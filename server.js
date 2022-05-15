@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import { APP_PORT, DB_URL } from "./config";
-import errorHandler from "./middlewares/errorHandler";
+import { errorHandler } from "./middlewares";
 import routes from "./routes";
 
 const app = express();
